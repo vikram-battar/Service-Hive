@@ -1,0 +1,59 @@
+.carausel-header{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+.carausel-image{
+    width: 100vh;
+}
+
+.categoryBox {
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.categories{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.category1{
+    background-image: url("../../assets/Images/women_salon/women_facial.jpg");
+}
+.category2{
+    background-image: url("../../assets/Images/men_salon/men_hairstyling.jpg");
+}
+.category3{
+    background-image: url("../../assets/Images/cleaning/carpets_cleaning.jpg");
+}
+.category4{
+    background-image: url("../../assets/Images/electrician/phone_repair.jpg");
+}
+.category5{
+    background-image: url("../../assets/Images/carpenter/table_making.jpg");
+}
+
+
+.categoryName{
+    text-decoration: none;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+    background-color: white;
+}
